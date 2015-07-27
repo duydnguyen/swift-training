@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1232B91B5296FF0050BFE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1232B81B5296FF0050BFE2 /* AppDelegate.swift */; };
+		CF1232BB1B5296FF0050BFE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1232BA1B5296FF0050BFE2 /* ViewController.swift */; };
+		CF1232BE1B5296FF0050BFE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1232BC1B5296FF0050BFE2 /* Main.storyboard */; };
+		CF1232C01B5296FF0050BFE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1232BF1B5296FF0050BFE2 /* Images.xcassets */; };
+		CF1232C31B5296FF0050BFE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF1232C11B5296FF0050BFE2 /* LaunchScreen.xib */; };
+		CF1232CF1B5296FF0050BFE2 /* SmartPianoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1232CE1B5296FF0050BFE2 /* SmartPianoTests.swift */; };
+		CF1232DC1B52976F0050BFE2 /* LogisticRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1232DA1B52976F0050BFE2 /* LogisticRegression.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF1232C91B5296FF0050BFE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1232AB1B5296FF0050BFE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1232B21B5296FF0050BFE2;
+			remoteInfo = SmartPiano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1232B31B5296FF0050BFE2 /* SmartPiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1232B71B5296FF0050BFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1232B81B5296FF0050BFE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF1232BA1B5296FF0050BFE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF1232BD1B5296FF0050BFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF1232BF1B5296FF0050BFE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF1232C21B5296FF0050BFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CF1232C81B5296FF0050BFE2 /* SmartPianoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPianoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1232CD1B5296FF0050BFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1232CE1B5296FF0050BFE2 /* SmartPianoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPianoTests.swift; sourceTree = "<group>"; };
+		CF1232D91B52976E0050BFE2 /* SmartPiano-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartPiano-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF1232DA1B52976F0050BFE2 /* LogisticRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LogisticRegression.cpp; sourceTree = "<group>"; };
+		CF1232DB1B52976F0050BFE2 /* LogisticRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogisticRegression.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1232B01B5296FF0050BFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1232C51B5296FF0050BFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF1232AA1B5296FF0050BFE2 = {
+			isa = PBXGroup;
+			children = (
+				CF1232D81B52971E0050BFE2 /* Algorithms */,
+				CF1232B51B5296FF0050BFE2 /* SmartPiano */,
+				CF1232CB1B5296FF0050BFE2 /* SmartPianoTests */,
+				CF1232B41B5296FF0050BFE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1232B41B5296FF0050BFE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1232B31B5296FF0050BFE2 /* SmartPiano.app */,
+				CF1232C81B5296FF0050BFE2 /* SmartPianoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1232B51B5296FF0050BFE2 /* SmartPiano */ = {
+			isa = PBXGroup;
+			children = (
+				CF1232B81B5296FF0050BFE2 /* AppDelegate.swift */,
+				CF1232BA1B5296FF0050BFE2 /* ViewController.swift */,
+				CF1232BC1B5296FF0050BFE2 /* Main.storyboard */,
+				CF1232BF1B5296FF0050BFE2 /* Images.xcassets */,
+				CF1232C11B5296FF0050BFE2 /* LaunchScreen.xib */,
+				CF1232B61B5296FF0050BFE2 /* Supporting Files */,
+			);
+			path = SmartPiano;
+			sourceTree = "<group>";
+		};
+		CF1232B61B5296FF0050BFE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF1232B71B5296FF0050BFE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF1232CB1B5296FF0050BFE2 /* SmartPianoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1232CE1B5296FF0050BFE2 /* SmartPianoTests.swift */,
+				CF1232CC1B5296FF0050BFE2 /* Supporting Files */,
+			);
+			path = SmartPianoTests;
+			sourceTree = "<group>";
+		};
+		CF1232CC1B5296FF0050BFE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF1232CD1B5296FF0050BFE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF1232D81B52971E0050BFE2 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				CF1232DA1B52976F0050BFE2 /* LogisticRegression.cpp */,
+				CF1232DB1B52976F0050BFE2 /* LogisticRegression.h */,
+				CF1232D91B52976E0050BFE2 /* SmartPiano-Bridging-Header.h */,
+			);
+			name = Algorithms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1232B21B5296FF0050BFE2 /* SmartPiano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1232D21B5296FF0050BFE2 /* Build configuration list for PBXNativeTarget "SmartPiano" */;
+			buildPhases = (
+				CF1232AF1B5296FF0050BFE2 /* Sources */,
+				CF1232B01B5296FF0050BFE2 /* Frameworks */,
+				CF1232B11B5296FF0050BFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartPiano;
+			productName = SmartPiano;
+			productReference = CF1232B31B5296FF0050BFE2 /* SmartPiano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF1232C71B5296FF0050BFE2 /* SmartPianoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1232D51B5296FF0050BFE2 /* Build configuration list for PBXNativeTarget "SmartPianoTests" */;
+			buildPhases = (
+				CF1232C41B5296FF0050BFE2 /* Sources */,
+				CF1232C51B5296FF0050BFE2 /* Frameworks */,
+				CF1232C61B5296FF0050BFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1232CA1B5296FF0050BFE2 /* PBXTargetDependency */,
+			);
+			name = SmartPianoTests;
+			productName = SmartPianoTests;
+			productReference = CF1232C81B5296FF0050BFE2 /* SmartPianoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1232AB1B5296FF0050BFE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Duy-Hieu";
+				TargetAttributes = {
+					CF1232B21B5296FF0050BFE2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CF1232C71B5296FF0050BFE2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CF1232B21B5296FF0050BFE2;
+					};
+				};
+			};
+			buildConfigurationList = CF1232AE1B5296FF0050BFE2 /* Build configuration list for PBXProject "SmartPiano" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1232AA1B5296FF0050BFE2;
+			productRefGroup = CF1232B41B5296FF0050BFE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1232B21B5296FF0050BFE2 /* SmartPiano */,
+				CF1232C71B5296FF0050BFE2 /* SmartPianoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1232B11B5296FF0050BFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1232BE1B5296FF0050BFE2 /* Main.storyboard in Resources */,
+				CF1232C31B5296FF0050BFE2 /* LaunchScreen.xib in Resources */,
+				CF1232C01B5296FF0050BFE2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1232C61B5296FF0050BFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1232AF1B5296FF0050BFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1232BB1B5296FF0050BFE2 /* ViewController.swift in Sources */,
+				CF1232DC1B52976F0050BFE2 /* LogisticRegression.cpp in Sources */,
+				CF1232B91B5296FF0050BFE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1232C41B5296FF0050BFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1232CF1B5296FF0050BFE2 /* SmartPianoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF1232CA1B5296FF0050BFE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1232B21B5296FF0050BFE2 /* SmartPiano */;
+			targetProxy = CF1232C91B5296FF0050BFE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF1232BC1B5296FF0050BFE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1232BD1B5296FF0050BFE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF1232C11B5296FF0050BFE2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1232C21B5296FF0050BFE2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF1232D01B5296FF0050BFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF1232D11B5296FF0050BFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF1232D31B5296FF0050BFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SmartPiano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartPiano-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF1232D41B5296FF0050BFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SmartPiano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartPiano-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CF1232D61B5296FF0050BFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartPianoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPiano.app/SmartPiano";
+			};
+			name = Debug;
+		};
+		CF1232D71B5296FF0050BFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartPianoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPiano.app/SmartPiano";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1232AE1B5296FF0050BFE2 /* Build configuration list for PBXProject "SmartPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1232D01B5296FF0050BFE2 /* Debug */,
+				CF1232D11B5296FF0050BFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1232D21B5296FF0050BFE2 /* Build configuration list for PBXNativeTarget "SmartPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1232D31B5296FF0050BFE2 /* Debug */,
+				CF1232D41B5296FF0050BFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF1232D51B5296FF0050BFE2 /* Build configuration list for PBXNativeTarget "SmartPianoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1232D61B5296FF0050BFE2 /* Debug */,
+				CF1232D71B5296FF0050BFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF1232AB1B5296FF0050BFE2 /* Project object */;
+}
