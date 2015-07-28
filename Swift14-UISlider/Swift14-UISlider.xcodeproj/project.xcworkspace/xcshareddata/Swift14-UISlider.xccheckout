@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9AC51FB4-98F8-4EE5-A747-7AD3258CD589</string>
+	<string>6664E383-4EED-4C6D-9A28-F4D7CDD0A6CE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Swift10_Gallery</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
 		<string>https://github.com/tdhieu/swift-training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swift10_Gallery/Swift10_Gallery.xcodeproj</string>
+	<string>Swift14-UISlider/Swift14-UISlider.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>

@@ -19,13 +19,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         indexHinh = 1
-        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("ChangeImage"), userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: Selector("ChangeImage"), userInfo: nil, repeats: true)
     }
 
     func ChangeImage() {
         var imgSrc:String = String(indexHinh) + ".png"
         imgHinh.image = UIImage(named: imgSrc)
-        indexHinh = (indexHinh % 9) + 1
+        indexHinh = (indexHinh % 8) + 1
     }
     
     override func didReceiveMemoryWarning() {
