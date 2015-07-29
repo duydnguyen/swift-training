@@ -15,7 +15,6 @@ class ViewController: UIViewController, UIPickerViewDelegate {
     var myArray:[String]!
     var foodName:[String]!
     
-    pick
     func numberOfComponentsInPickerView(pickerView: UIPickerView)->Int {
         return 2
     }
