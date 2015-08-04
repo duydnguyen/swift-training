@@ -7,17 +7,17 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BD67FE93-87CB-4B2C-9132-925B8942E7C1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>AirFight</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D937C2878926C201BEC3DE63D5EA39257C4BC483</key>
+		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
 		<string>https://github.com/tdhieu/swift-training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AirFight/AirFight.xcodeproj/project.xcworkspace</string>
+	<string>AirFight/AirFight.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D937C2878926C201BEC3DE63D5EA39257C4BC483</key>
+		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D937C2878926C201BEC3DE63D5EA39257C4BC483</string>
+	<string>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D937C2878926C201BEC3DE63D5EA39257C4BC483</string>
+			<string>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</string>
 			<key>IDESourceControlWCCName</key>
-			<string>swift%20training</string>
+			<string>Swift%20Training</string>
 		</dict>
 	</array>
 </dict>

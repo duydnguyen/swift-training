@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>29EDBF5D-16EB-48A7-8406-FB4AF9A0D6C8</string>
+	<string>14943E08-6A7E-4172-B7E8-D91A2090F464</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Swift19_NSUserDefault</string>
+	<string>Swift3</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
 		<string>https://github.com/tdhieu/swift-training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swift19_NSUserDefault/Swift19_NSUserDefault.xcodeproj</string>
+	<string>Swift3/Swift3.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
