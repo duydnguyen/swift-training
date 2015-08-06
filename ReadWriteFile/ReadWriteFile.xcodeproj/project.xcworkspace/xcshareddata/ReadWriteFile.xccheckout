@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>19C6AD12-6F63-4803-8FB6-6ACCC28F651D</string>
+	<string>6108005C-4924-4DA1-B8DA-94AFC5D870BE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ReadWriteFile</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
 		<string>https://github.com/tdhieu/swift-training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swift11-Avatar/Swift11-Avatar.xcodeproj/project.xcworkspace</string>
+	<string>ReadWriteFile/ReadWriteFile.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
