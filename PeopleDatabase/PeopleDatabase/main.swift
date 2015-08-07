@@ -6,22 +6,26 @@
 //  Copyright (c) 2014 Razeware LLC. All rights reserved.
 //
 
+// For more detail: http://www.raywenderlich.com/76044/learn-to-code-ios-apps-with-swift-tutorial-3
+
+// Complete tutorial: http://www.raywenderlich.com/category/swift
+
 import Foundation
 var response: String
 var people: [Person] = []
 
-do {
+repeat {
   var newPerson = Person()
   newPerson.enterInfo()
   people.append(newPerson)
   newPerson.printInfo()
   
-  println("Do you want to enter another name? (y/n)")
+  print("Do you want to enter another name? (y/n)")
   response = input()
  
 } while(response == "y")
 
-println("Number of people in the database: \(people.count)")
+print("Number of people in the database: \(people.count)")
 
 for onePerson in people  {
   onePerson.printInfo()

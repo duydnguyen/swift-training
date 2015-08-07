@@ -30,19 +30,19 @@ class Person  {
   }
   
   func enterInfo()  {
-    println("What is the first name?")
+    print("What is the first name?")
     firstName = input()
-    println("What is \(firstName)'s last name?")
+    print("What is \(firstName)'s last name?")
     lastName = input()
-    println("How old is \(firstName) \(lastName)")
-    let userInput = input().toInt()
+    print("How old is \(firstName) \(lastName)")
+    let userInput = Int(input())
     if let number = userInput {
       age = number
     }
   }
   
   func printInfo()  {
-    println("\(firstName) \(lastName) is \(age) years old")
+    print("\(firstName) \(lastName) is \(age) years old")
   }
 
 }

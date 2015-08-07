@@ -8,12 +8,21 @@
 
 import Foundation
 
+func removeEndedValue(str:String) -> String {
+    var result = str
+    if !result.characters.contains("\n") {
+        return result
+    }
+    result.removeAtIndex(result.endIndex.predecessor())
+    return result
+}
+
 func getArgv(strContent:NSString) -> [String] {
-    var strValue = String(strContent)
+    let strValue = removeEndedValue(String(strContent))
     var strArr = [String]()
     var tmpStr = ""
     
-    for chr in strValue {
+    for chr in strValue.generate() {
         if chr == " " {
             strArr.append(tmpStr)
             tmpStr = ""
@@ -22,23 +31,26 @@ func getArgv(strContent:NSString) -> [String] {
             tmpStr.append(chr)
         }
     }
+    if tmpStr != "" {
+        strArr.append(tmpStr)
+    }
     return strArr
 }
 print("Input your number: ")
 
 var argc:Int = NSString(data:NSFileHandle.fileHandleWithStandardInput().availableData, encoding:NSUTF8StringEncoding)!.integerValue
-println("argc: " + argc.description)
+print("argc: " + argc.description)
 
 print("Input string of notes: ")
 
 var argvString = NSString(data:NSFileHandle.fileHandleWithStandardInput().availableData, encoding:NSUTF8StringEncoding)
-println("argvString: " + String(argvString!))
+print("argvString: " + String(argvString!))
 
 var argv = getArgv(argvString!)
 
-println("Number of elements in array: " + String(argv.count))
+print("Number of elements in array: " + String(argv.count))
 
 for str in argv {
     
-    println(str)
+    print(str)
 }
