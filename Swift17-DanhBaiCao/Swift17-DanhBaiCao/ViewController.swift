@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet var img3: UIImageView!
     
     var bobai:[String]!
+    var player = Player()
     
     @IBAction func btnRutBai(sender: AnyObject) {
         

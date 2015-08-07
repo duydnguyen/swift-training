@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF06E3BA1B73AAB6009CC17D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF06E3B91B73AAB6009CC17D /* main.swift */; };
+		CFDA40641B74F91800FC67C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA40631B74F91800FC67C6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CF06E3B41B73AAB6009CC17D /* CopyFiles */ = {
+		CFDA405E1B74F91800FC67C6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CF06E3B61B73AAB6009CC17D /* ReadWriteConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReadWriteConsole; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF06E3B91B73AAB6009CC17D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CFDA40601B74F91800FC67C6 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA40631B74F91800FC67C6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CF06E3B31B73AAB6009CC17D /* Frameworks */ = {
+		CFDA405D1B74F91800FC67C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF06E3AD1B73AAB6009CC17D = {
+		CFDA40571B74F91800FC67C6 = {
 			isa = PBXGroup;
 			children = (
-				CF06E3B81B73AAB6009CC17D /* ReadWriteConsole */,
-				CF06E3B71B73AAB6009CC17D /* Products */,
+				CFDA40621B74F91800FC67C6 /* test */,
+				CFDA40611B74F91800FC67C6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CF06E3B71B73AAB6009CC17D /* Products */ = {
+		CFDA40611B74F91800FC67C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF06E3B61B73AAB6009CC17D /* ReadWriteConsole */,
+				CFDA40601B74F91800FC67C6 /* test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF06E3B81B73AAB6009CC17D /* ReadWriteConsole */ = {
+		CFDA40621B74F91800FC67C6 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				CF06E3B91B73AAB6009CC17D /* main.swift */,
+				CFDA40631B74F91800FC67C6 /* main.swift */,
 			);
-			path = ReadWriteConsole;
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF06E3B51B73AAB6009CC17D /* ReadWriteConsole */ = {
+		CFDA405F1B74F91800FC67C6 /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF06E3BD1B73AAB6009CC17D /* Build configuration list for PBXNativeTarget "ReadWriteConsole" */;
+			buildConfigurationList = CFDA40671B74F91800FC67C6 /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
-				CF06E3B21B73AAB6009CC17D /* Sources */,
-				CF06E3B31B73AAB6009CC17D /* Frameworks */,
-				CF06E3B41B73AAB6009CC17D /* CopyFiles */,
+				CFDA405C1B74F91800FC67C6 /* Sources */,
+				CFDA405D1B74F91800FC67C6 /* Frameworks */,
+				CFDA405E1B74F91800FC67C6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ReadWriteConsole;
-			productName = ReadWriteConsole;
-			productReference = CF06E3B61B73AAB6009CC17D /* ReadWriteConsole */;
+			name = test;
+			productName = test;
+			productReference = CFDA40601B74F91800FC67C6 /* test */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CF06E3AE1B73AAB6009CC17D /* Project object */ = {
+		CFDA40581B74F91800FC67C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Duy-Hieu";
 				TargetAttributes = {
-					CF06E3B51B73AAB6009CC17D = {
+					CFDA405F1B74F91800FC67C6 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = CF06E3B11B73AAB6009CC17D /* Build configuration list for PBXProject "ReadWriteConsole" */;
+			buildConfigurationList = CFDA405B1B74F91800FC67C6 /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CF06E3AD1B73AAB6009CC17D;
-			productRefGroup = CF06E3B71B73AAB6009CC17D /* Products */;
+			mainGroup = CFDA40571B74F91800FC67C6;
+			productRefGroup = CFDA40611B74F91800FC67C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF06E3B51B73AAB6009CC17D /* ReadWriteConsole */,
+				CFDA405F1B74F91800FC67C6 /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CF06E3B21B73AAB6009CC17D /* Sources */ = {
+		CFDA405C1B74F91800FC67C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF06E3BA1B73AAB6009CC17D /* main.swift in Sources */,
+				CFDA40641B74F91800FC67C6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CF06E3BB1B73AAB6009CC17D /* Debug */ = {
+		CFDA40651B74F91800FC67C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -169,7 +168,7 @@
 			};
 			name = Debug;
 		};
-		CF06E3BC1B73AAB6009CC17D /* Release */ = {
+		CFDA40661B74F91800FC67C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,14 +203,14 @@
 			};
 			name = Release;
 		};
-		CF06E3BE1B73AAB6009CC17D /* Debug */ = {
+		CFDA40681B74F91800FC67C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CF06E3BF1B73AAB6009CC17D /* Release */ = {
+		CFDA40691B74F91800FC67C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -221,25 +220,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF06E3B11B73AAB6009CC17D /* Build configuration list for PBXProject "ReadWriteConsole" */ = {
+		CFDA405B1B74F91800FC67C6 /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF06E3BB1B73AAB6009CC17D /* Debug */,
-				CF06E3BC1B73AAB6009CC17D /* Release */,
+				CFDA40651B74F91800FC67C6 /* Debug */,
+				CFDA40661B74F91800FC67C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF06E3BD1B73AAB6009CC17D /* Build configuration list for PBXNativeTarget "ReadWriteConsole" */ = {
+		CFDA40671B74F91800FC67C6 /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF06E3BE1B73AAB6009CC17D /* Debug */,
-				CF06E3BF1B73AAB6009CC17D /* Release */,
+				CFDA40681B74F91800FC67C6 /* Debug */,
+				CFDA40691B74F91800FC67C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CF06E3AE1B73AAB6009CC17D /* Project object */;
+	rootObject = CFDA40581B74F91800FC67C6 /* Project object */;
 }

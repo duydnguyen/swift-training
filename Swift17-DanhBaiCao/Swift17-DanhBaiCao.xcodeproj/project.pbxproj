@@ -681,6 +681,7 @@
 				CFF2D8D41B6877DE00D5BDC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFF2D8D51B6877DE00D5BDC6 /* Build configuration list for PBXNativeTarget "Swift17-DanhBaiCaoTests" */ = {
 			isa = XCConfigurationList;
@@ -689,6 +690,7 @@
 				CFF2D8D71B6877DE00D5BDC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

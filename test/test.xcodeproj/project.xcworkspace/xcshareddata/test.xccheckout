@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C8D782E6-4405-4838-8EFD-256FD523DB83</string>
+	<string>AA4166EC-39BF-4104-860A-44064744AE19</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Swift17-DanhBaiCao</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
 		<string>https://github.com/tdhieu/swift-training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swift17-DanhBaiCao/Swift17-DanhBaiCao.xcodeproj</string>
+	<string>test/test.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
