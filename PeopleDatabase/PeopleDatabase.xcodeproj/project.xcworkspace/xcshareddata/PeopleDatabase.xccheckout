@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>44CD7EE0-64DA-4D76-A7F4-6CADE4B34235</string>
+	<string>7146E52B-DCC3-49AD-B808-FE4362F35C5F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ReadWriteConsole</string>
+	<string>PeopleDatabase</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>
 		<string>https://github.com/tdhieu/swift-training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ReadWriteConsole/ReadWriteConsole.xcodeproj</string>
+	<string>PeopleDatabase/PeopleDatabase.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>074ACC3AC6D28F9BF9C169CE0252F3C644F83EF1</key>

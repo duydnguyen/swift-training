@@ -9,9 +9,20 @@
 import Foundation
 //This program is shown how to read & write from console in swift
 
-print("Enter your name: ")
+print("Enter your first name: ")
 
-var name = NSString(data:NSFileHandle.fileHandleWithStandardInput().availableData, encoding:NSUTF8StringEncoding)
+var firstName = NSString(data:NSFileHandle.fileHandleWithStandardInput().availableData, encoding:NSUTF8StringEncoding)
 
-println("Hello " + String(name!))
+println("First name: " + String(firstName!))
 
+print("Enter your last name: ")
+
+var lastName = NSString(data:NSFileHandle.fileHandleWithStandardInput().availableData, encoding:NSUTF8StringEncoding)
+
+println("Last name: " + String(lastName!))
+
+print("Enter a number: ")
+
+var number:Int = NSString(data:NSFileHandle.fileHandleWithStandardInput().availableData, encoding:NSUTF8StringEncoding)!.integerValue
+
+println("Your number: " + number.description)
