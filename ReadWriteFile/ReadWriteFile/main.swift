@@ -34,17 +34,17 @@ var fileOut:String = NSHomeDirectory() + "/Desktop/Swift Training/ReadWriteFile/
 
 // Checking for the Existence of a File
 if filemgr.fileExistsAtPath(fileIn) {
-    println("File " + fileIn + " exists!")
+    print("File " + fileIn + " exists!\n")
 } else {
-    println("File " + fileIn + " not found!")
+    print("File " + fileIn + " not found!\n")
 }
 
 
 // Checking if a File is Readable/Writable/Executable/Deletable
 if filemgr.isWritableFileAtPath(fileOut) {
-    println("File " + fileOut + " is writable!")
+    print("File " + fileOut + " is writable!\n")
 } else {
-    println("File " + fileOut + " is read-only!")
+    print("File " + fileOut + " is read-only!\n")
 }
 
 
@@ -54,18 +54,18 @@ if filemgr.isWritableFileAtPath(fileOut) {
 var dataBuffer:NSData
 dataBuffer = filemgr.contentsAtPath(fileIn)!
 var lineContent = NSString(data: dataBuffer, encoding: NSUTF8StringEncoding)
-println(String(lineContent!))
+print(String(lineContent!) + "\n")
 
 // Writting contents to a file
-lineContent = "New content to file"
+lineContent = "New content to file\n"
 dataBuffer = lineContent!.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)!
 filemgr.createFileAtPath(fileOut, contents: dataBuffer, attributes: nil)
 
 // Comparing the Contents of Two Files
 if filemgr.contentsEqualAtPath(fileIn, andPath: fileOut) {
-    println("File contents match")
+    print("File contents match\n")
 } else {
-    println("File contents do not match")
+    print("File contents do not match\n")
 }
 
 
@@ -73,34 +73,34 @@ if filemgr.contentsEqualAtPath(fileIn, andPath: fileOut) {
 var error: NSError?
 
 if filemgr.moveItemAtPath(fileIn, toPath: NSHomeDirectory() + "data.txt", error: &error) {
-    println("Move successful")
+    print("Move successful\n")
 } else {
-    println("Moved failed with error: \(error!.localizedDescription)")
+    print("Moved failed with error: \(error!.localizedDescription)\n")
 }
 
 
 // Copying a file
 if filemgr.copyItemAtPath(fileIn, toPath: NSHomeDirectory(), error: &error) {
-    println("Copy successful")
+    print("Copy successful\n")
 } else {
-    println("Copy failed with error: \(error!.localizedDescription)")
+    print("Copy failed with error: \(error!.localizedDescription)\n")
 }
 
 
 // Removing a File
 if filemgr.removeItemAtPath(fileOut, error: &error) {
-    println("Remove successful")
+    print("Remove successful\n")
 } else {
-    println("Remove failed: \(error!.localizedDescription)")
+    print("Remove failed: \(error!.localizedDescription)\n")
 }
 
 
 // Creating a Symbolic Link
 if filemgr.createSymbolicLinkAtPath(fileIn,
     withDestinationPath: NSHomeDirectory(), error: &error) {
-        println("Link successful")
+        print("Link successful\n")
 } else {
-    println("Link failed: \(error!.localizedDescription)")
+    print("Link failed: \(error!.localizedDescription)\n")
 }
 
 
