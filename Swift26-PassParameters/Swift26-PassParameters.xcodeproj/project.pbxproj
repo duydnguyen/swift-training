@@ -12,6 +12,16 @@
 		CF074A471B7C94D1009332A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF074A451B7C94D1009332A5 /* Main.storyboard */; };
 		CF074A491B7C94D1009332A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF074A481B7C94D1009332A5 /* Assets.xcassets */; };
 		CF074A4C1B7C94D1009332A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF074A4A1B7C94D1009332A5 /* LaunchScreen.storyboard */; };
+		CF074A541B7C95EB009332A5 /* DanhSachTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF074A531B7C95EB009332A5 /* DanhSachTableViewController.swift */; };
+		CF074A5D1B7C9625009332A5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF074A551B7C9625009332A5 /* 1.png */; };
+		CF074A5E1B7C9625009332A5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF074A561B7C9625009332A5 /* 2.png */; };
+		CF074A5F1B7C9625009332A5 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF074A571B7C9625009332A5 /* 3.png */; };
+		CF074A601B7C9625009332A5 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF074A581B7C9625009332A5 /* 4.png */; };
+		CF074A611B7C9625009332A5 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CF074A591B7C9625009332A5 /* 5.png */; };
+		CF074A621B7C9625009332A5 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = CF074A5A1B7C9625009332A5 /* 6.png */; };
+		CF074A631B7C9625009332A5 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = CF074A5B1B7C9625009332A5 /* 7.png */; };
+		CF074A641B7C9625009332A5 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = CF074A5C1B7C9625009332A5 /* 8.png */; };
+		CF074A661B7C97B2009332A5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF074A651B7C97B2009332A5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		CF074A481B7C94D1009332A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF074A4B1B7C94D1009332A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF074A4D1B7C94D1009332A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF074A531B7C95EB009332A5 /* DanhSachTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanhSachTableViewController.swift; sourceTree = "<group>"; };
+		CF074A551B7C9625009332A5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CF074A561B7C9625009332A5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CF074A571B7C9625009332A5 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		CF074A581B7C9625009332A5 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		CF074A591B7C9625009332A5 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		CF074A5A1B7C9625009332A5 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		CF074A5B1B7C9625009332A5 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		CF074A5C1B7C9625009332A5 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		CF074A651B7C97B2009332A5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +74,22 @@
 		CF074A401B7C94D1009332A5 /* Swift26-PassParameters */ = {
 			isa = PBXGroup;
 			children = (
+				CF074A551B7C9625009332A5 /* 1.png */,
+				CF074A561B7C9625009332A5 /* 2.png */,
+				CF074A571B7C9625009332A5 /* 3.png */,
+				CF074A581B7C9625009332A5 /* 4.png */,
+				CF074A591B7C9625009332A5 /* 5.png */,
+				CF074A5A1B7C9625009332A5 /* 6.png */,
+				CF074A5B1B7C9625009332A5 /* 7.png */,
+				CF074A5C1B7C9625009332A5 /* 8.png */,
 				CF074A411B7C94D1009332A5 /* AppDelegate.swift */,
 				CF074A431B7C94D1009332A5 /* ViewController.swift */,
 				CF074A451B7C94D1009332A5 /* Main.storyboard */,
 				CF074A481B7C94D1009332A5 /* Assets.xcassets */,
 				CF074A4A1B7C94D1009332A5 /* LaunchScreen.storyboard */,
 				CF074A4D1B7C94D1009332A5 /* Info.plist */,
+				CF074A531B7C95EB009332A5 /* DanhSachTableViewController.swift */,
+				CF074A651B7C97B2009332A5 /* DetailViewController.swift */,
 			);
 			path = "Swift26-PassParameters";
 			sourceTree = "<group>";
@@ -121,7 +151,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF074A641B7C9625009332A5 /* 8.png in Resources */,
 				CF074A4C1B7C94D1009332A5 /* LaunchScreen.storyboard in Resources */,
+				CF074A601B7C9625009332A5 /* 4.png in Resources */,
+				CF074A5D1B7C9625009332A5 /* 1.png in Resources */,
+				CF074A621B7C9625009332A5 /* 6.png in Resources */,
+				CF074A5E1B7C9625009332A5 /* 2.png in Resources */,
+				CF074A5F1B7C9625009332A5 /* 3.png in Resources */,
+				CF074A611B7C9625009332A5 /* 5.png in Resources */,
+				CF074A631B7C9625009332A5 /* 7.png in Resources */,
 				CF074A491B7C94D1009332A5 /* Assets.xcassets in Resources */,
 				CF074A471B7C94D1009332A5 /* Main.storyboard in Resources */,
 			);
@@ -134,8 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF074A541B7C95EB009332A5 /* DanhSachTableViewController.swift in Sources */,
 				CF074A441B7C94D1009332A5 /* ViewController.swift in Sources */,
 				CF074A421B7C94D1009332A5 /* AppDelegate.swift in Sources */,
+				CF074A661B7C97B2009332A5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
